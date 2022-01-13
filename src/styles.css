@@ -1,0 +1,39 @@
+.car-config {
+  display: flex;
+  padding: 50px;
+  gap: 30px;
+  justify-content: space-around;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.controls {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  margin: 0 -15px;
+}
+
+.summary {
+  display: grid;
+  justify-items: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.preview-setting {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.ant-radio-group-solid {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
